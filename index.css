@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+
+}
+.main-header h1{
+    color: black;
+}
+input{
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+select{
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.container{
+    padding: 100px;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 2px 3px 2px 3px #000;
+    border-radius: 10px;
+}
+#cgpac{
+    text-align: center;
+    margin-top: 0%;
+
+}
+label{
+    margin-right: 20px;
+}
+
+#one{
+    margin: 10px;
+}
+#two{
+    margin:10px;
+}
+#three{
+    margin: 10px;
+}
+#four{
+    margin: 10px;
+}
+#five{
+    margin: 10px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+.add{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#addbtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#submitbtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 75%;
+}
+
+#submitbtn:hover {
+    background-color: white;
+    border-color: #000;
+    color: #000;
+}
+#addbtn:hover {
+    background-color: white;
+    color: #000;
+}
+
